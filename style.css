@@ -1,0 +1,50 @@
+body{
+    background: #1e2d3b;
+}
+
+header{
+    background: #2e3a46;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 24px;
+}
+
+header img{
+    width: 75px;
+}
+
+.album-card {
+    width: 100%;
+    background-color: #2e3a46;
+    padding: 24px;
+    margin: 12px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 6px 3px 3px rgba(0, 0, 0, .15);
+}
+
+.album-card img {
+    width: 100%;
+}
+
+.album-card .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee;
+    margin: 12px 0;
+}
+
+.album-card .album-info {
+    color: #a1a1a1;
+}
+
+.album-info .artist {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.album-info .year {
+    font-size: 14px;
+}
